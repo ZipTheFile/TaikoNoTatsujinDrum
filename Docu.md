@@ -17,7 +17,7 @@ Ce projet est la construction d'un tambour de type Taiko Force Lvl 5 pour les je
 
 ## Partie Electronique et Code
 
-Voici le schéma éléctrique pour n'importe quel tambour : ![](Ressource\SchemaElec-Taiko.png)
+Voici le schéma éléctrique pour n'importe quel tambour : ![](Ressource/SchemaElec-Taiko.png)
    Ps : J'ai volontairement éclipsé les autres pin de la carte Arduino étant donné qu'il ne sont pas utiles à ce projets mais cela ne veut pas dire que la carte ne possède que les pin affiché sur le schéma...
 
 Pour le code j'avais moi même fait un truc qui s'est révélé être horriblement lent, donc je suis allé m'inspirer d'un code déja existant qu'un mec avait fait (https://github.com/ShikyC/Taiko-Drum-Controller-Arduino) et je l'ai amélioré grâce à l'IA française LeChat vu mon niveau pas excellent en codage...
@@ -33,7 +33,7 @@ Couche 3 --> Support en Liège et Capteurs
 Couche 2 --> Disque de liège
 Couche 1 --> Premier disque de bois
 Couche 0 --> Niveau des pieds
-- Voir image pour aider à mieux comprendre : ![](Ressource\Layers.jpg)
+- Voir image pour aider à mieux comprendre : ![](Ressource/Layers.jpg)
 
 Matériel utilisé : 
 - Planches de bois médium (2cm d'épaisseur)
@@ -54,20 +54,20 @@ Ps : Avant chaque découpe ou collage je conseille de tracer au crayon de bois l
 1. Couche 1; 2 et 4 : J'ai découpé à la scie sauteuse deux disque de bois de 20cm de rayon et un disque de liège de 19,5cm de rayon (Juste histoire que le liège ne dépasse pas pas obligé d'être aussi précis)
 
 2. Couche 4 : J'ai découpé l'un des disques le plus précisement possible en quatre partie selon l'image ci-dessous
-- ![](Ressource\Layer4Spec.jpg)
+- ![](Ressource/Layer4Spec.jpg)
 
 3. J'ai découpé les quatres pieds en forme de rectangle que j'ai ensuite redécoupé avec les angles voulus (Si on choisit d'avoir des pieds qui ne sont pas droit il faut bien penser à calculer les angles avant, et avoir en tête que plus les pieds sont inclinés par rapport au sol, moins ils sont solides). J'ai choisi personellement d'incliner le plateau (Couche 2-4) à 30°.
-Pour les angles : ![](Ressource\FeetAngles.jpg)
+Pour les angles : ![](Ressource/FeetAngles.jpg)
 
 4. Il faut ensuite fixer les pieds à la couche 1. J'ai d'abord percé un trou pour y mettre un tourillon avec de la colle à bois, mauvaise idée je déconseille, ça ne tient pas. J'ai donc ensuite fixé des vis comme sur l'image en dessous en pensant à bien mettre de la colle à bois aussi car les pieds avaient commencé à craquer. 
-Pour la fixation des pieds : ![](Ressource\FeetFixation.jpg)
+Pour la fixation des pieds : ![](Ressource/FeetFixation.jpg)
 
 5. Couche 2 et 1 : J'ai collé le disque de liège(couche 2) à la couche 1 et j'ai percé deux trous au centre du disque à travers les deux couches pour pouvoir par la suite y faire passer les fils des capteurs (J'ai fait 2 trous car je n'avais pas de forret plus gros et les fils ne rentraient pas tous)
 
 5. J'ai rallongé les fils des capteurs piezo (soudure avec des fils plus long) en pensant d'utiliser à la fin un fil coloré mâle pour la BreadBoard (La polarité des piezo n'ayant pas d'importance ici, j'ai defini une couleur par paire de fil de piezo histoire de reconnaitre la bonne paire après que les capteurs aient été collés.) 
 
 6. C'est le tour de la création de la couche 3. J'ai donc découpé dans le liège des formes qui permettront de laisser de l'espace entre la couche 2 et 4 pour les piezo et les fils. (Comme dit avant, je conseille d'augmenter l'épaisseur du liège pour diminuer les vibrations inter-pièce mais aussi pour permettre plus d'espace pour les fils et les piezo ce qui permet d'utiliser des fils de meilleures qualité et d'avoir moins de contact) J'ai ensuite collé la couche 3 à la couche 4 pour plus de précision et un piezo par partie sur la couche 4 (Il faut mettre le piezo le plus au centre possible de la pièce pour un souci d'efficacité et coller la face dorée et pas celle avec le truc blanc, c'est plutot logique) 
-![](Ressource\Layer3.jpeg)
+![](Ressource/Layer3.jpeg)
 
 7. Avant de coller l'ensemble Couche3-Couche4 à l'ensemble Couche0-Couche1-Couche2 il faut bien penser à faire passer les fils des piezo dans les trous précédemment percés. J'ai donc ensuite collé les deux parties ensemble (Cela parait logique mais il ne faut pas coller les piezo à la couche 2, seulement les support).
 
