@@ -53,8 +53,8 @@ Ps : Avant chaque découpe ou collage je conseille de tracer au crayon de bois l
 
 1. Couche 1; 2 et 4 : J'ai découpé à la scie sauteuse deux disque de bois de 20cm de rayon et un disque de liège de 19,5cm de rayon (Juste histoire que le liège ne dépasse pas pas obligé d'être aussi précis)
 
-2. Couche 4 : J'ai découpé l'un des disques le plus précisement possible en quatre partie selon l'image ci-dessous
-- ![](Ressource/Layer4Spec.jpg)
+2. Couche 4 : J'ai découpé l'un des disques le plus précisement possible en quatre partie selon l'image ci-dessous :
+![](Ressource/Layer4Spec.JPG)
 
 3. J'ai découpé les quatres pieds en forme de rectangle que j'ai ensuite redécoupé avec les angles voulus (Si on choisit d'avoir des pieds qui ne sont pas droit il faut bien penser à calculer les angles avant, et avoir en tête que plus les pieds sont inclinés par rapport au sol, moins ils sont solides). J'ai choisi personellement d'incliner le plateau (Couche 2-4) à 30°.
 Pour les angles : ![](Ressource/FeetAngles.jpg)
